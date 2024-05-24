@@ -11,7 +11,7 @@ function App() {
   // The state of adding a new card/city is active or not
   const [isAddCardActive, setIsAddCardActive] = React.useState(true);
   // Get the api key
-  const API_KEY = import.meta.env.VITE_API_KEY;
+  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
   
 
   // By default it starts with Budapest weather 
